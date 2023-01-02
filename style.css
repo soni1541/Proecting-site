@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('fonts/Gilroy-Bold.woff') format('woff'),
+        url('fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('fonts/Gilroy-Medium.woff') format('woff'),
+        url('fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.header-menu {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.header-menu-list {
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu-list li {
+    list-style-type: none;
+    font-family: 'Gilroy-Bold';
+    color: #828282;
+    font-size: 18px;
+    /*padding-right: 155px;*/
+}
+
+.main h1 {
+    font-family: 'Gilroy-Bold';
+    font-size: 47.3392px;
+    color: #070707;
+}
+.main h2{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    color: #070707;
+}
+.main h3{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    color: #070707;
+    transform: rotate(-90deg);
+}
+.main {
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 100px;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+.main-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-image img{
+    width: 100%;
+}
+h1 {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    text-align: center;
+    color: #070707;
+    margin: 0;
+}
+p {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    text-align: center;
+}
+.about {
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 100px;
+}
+
+.skills {
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 100px;
+}
+.skills-container {
+    display: flex;
+    flex-direction: column;
+}
+.skills-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.portfolio {
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 100px;
+}
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+.portfolio img {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.portfolio p {
+    text-decoration: underline;
+}
+.contacts {
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 100px;
+}
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    text-align: center;
+    border-radius: 40px;
+    padding: 8px;
+    width: 180px;
+}
+
+.img-foot
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+
+.footer-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer
+{
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 100px;
+}
+
+footer p
+{
+    color: #828282;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+}
