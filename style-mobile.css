@@ -17,10 +17,10 @@
     font-style: normal;
 }
 
-.header-menu {
-    margin-left: 530px;
-    margin-right: 530px;
+body {
+    margin: 0px;
 }
+
 .header-menu-list {
     margin: 0;
     padding-left: 0;
@@ -52,10 +52,9 @@
     transform: rotate(-90deg);
 }
 .main {
-    margin-left: 500px;
-    margin-right: 500px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    margin: 30px;
 }
 .main-container {
     display: flex;
@@ -77,7 +76,7 @@
     align-items: flex-start;
 }
 .main-image img{
-    width: 100%;
+    max-width: 100%;
 }
 h1 {
     font-family: 'Gilroy-Bold';
@@ -92,15 +91,15 @@ p {
     text-align: center;
 }
 .about {
-    margin-left: 530px;
-    margin-right: 530px;
+    padding-top: 80px;
     padding-bottom: 100px;
+    margin: 30px;
 }
 
 .skills {
-    margin-left: 530px;
-    margin-right: 530px;
+    padding-top: 80px;
     padding-bottom: 100px;
+    margin: 30px;
 }
 .skills-container {
     display: flex;
@@ -109,21 +108,21 @@ p {
 .skills-menu {
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
     flex-direction: column;
 }
 .skills img {
-    margin-top: 80px;
+    margin-top: 100px;
 }
 .portfolio {
-    margin-left: 530px;
-    margin-right: 530px;
-    padding-bottom: 100px;
+    margin: 30px;
+    padding-top: 80px;
 }
 .portfolio-container {
     display: flex;
     flex-direction: column;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 .portfolio img {
     margin-top: 50px;
@@ -133,9 +132,9 @@ p {
     text-decoration: underline;
 }
 .contacts {
-    margin-left: 530px;
-    margin-right: 530px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    margin: 30px;
+    padding-bottom: 50px;
 }
 .contacts-container {
     display: flex;
@@ -151,7 +150,7 @@ button {
     text-align: center;
     border-radius: 40px;
     padding: 8px;
-    width: 180px;
+    width: 100%;
 }
 
 .img-foot
@@ -167,14 +166,12 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 footer
 {
-    margin-left: 530px;
-    margin-right: 530px;
-    padding-bottom: 100px;
+    margin: 30px;
+    padding-bottom: 50px;
 }
 
 footer p
@@ -182,4 +179,7 @@ footer p
     color: #828282;
     font-family: 'Gilroy-Medium';
     font-size: 14px;
+}
+.back {
+    background-color: #F6F6F6;
 }
